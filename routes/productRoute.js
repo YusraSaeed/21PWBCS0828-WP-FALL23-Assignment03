@@ -1,51 +1,17 @@
 const express = require('express');
 const Product = require('../models/products'); 
 const {isAdmin, authMiddleware} = require('../authMiddleware')
-const multer = require('multer');
-const path = require('path');
 const router = express.Router();
 
-// router.post('/createProduct', authMiddleware, isAdmin, async(req,res) => {
-//     try{
-//         // if(req.body.title){
-//         //     req.body.slug = slugify(req.body.title);
-//         // }
-//         const newProduct = await Product.create(req.body);
-//         res.json(newProduct);
-//     } catch {
-//         res.json(error);
-//     }
-// });
-
-const storage = multer.diskStorage({
-    destination: function (req, file, cb) {
-        cb(null, 'uploads/'); 
-    },
-    filename: function (req, file, cb) {
-        const uniqueSuffix = Date.now() + '-' + Math.round(Math.random() * 1E9);
-        cb(null, file.fieldname + '-' + uniqueSuffix + path.extname(file.originalname));
+router.post('/createProduct', authMiddleware, isAdmin, async(req,res) => {
+    try{
+        const newProduct = await Product.create(req.body);
+        res.json(newProduct);
+    } catch {
+        res.json(error);
     }
 });
 
-const upload = multer({ storage: storage });
-
-router.post('/createProduct', authMiddleware, isAdmin, upload.single('imageUrls'), async (req, res) => {
-    try {
-        const productData = {
-            name: req.body.name,
-            description: req.body.description,
-            price: req.body.price,
-            stock: req.body.stock,
-            imageUrls: [req.file.path], 
-        };
-        
-        const newProduct = await Product.create(productData);
-        res.status(201).json(newProduct);
-    } catch (error) {
-        console.error(error);
-        res.status(500).json({ message: 'Server error', error: error.message });
-    }
-});
 
 router.get('/getaProduct/:id', async(req,res) => {
     const {id} = req.params;

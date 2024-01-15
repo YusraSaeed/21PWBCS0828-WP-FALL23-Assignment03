@@ -20,7 +20,7 @@ const productSchema = new mongoose.Schema({
         default: 0,
         select: false
     },
-    imageUrls: [String],
+    //imageUrls: [String],
     created_at: {
         type: Date,
         default: Date.now,
