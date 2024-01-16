@@ -1,0 +1,70 @@
+[{
+  "_id": {
+    "$oid": "65a23b7ec83a9cd054207757"
+  },
+  "firstName": "Yusra",
+  "lastName": "Saeed",
+  "phone": {
+    "$numberLong": "34647565889"
+  },
+  "email": "yusrasaeed333@gmail.com",
+  "password": "$2b$10$8r3O.rz2l1.qyO8aegC9juh5BSau/bXR2LxW.scyseD3cTnOwLF02",
+  "role": "admin",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65a3c9b404eefec9746f8e55"
+  },
+  "firstName": "Washma",
+  "lastName": "Tabassum",
+  "phone": {
+    "$numberLong": "34647295889"
+  },
+  "email": "washmamalik@gmail.com",
+  "password": "$2b$10$BcXg3Yr3fJJkHWYn2o7j2.HRmvhAaeeSxOw/ZorjVTIe0q36ui64C",
+  "role": "user",
+  "cart": [
+    {
+      "product": {
+        "$oid": "65a257dca4ccdf3b29125e51"
+      },
+      "quantity": 1,
+      "price": 2099,
+      "_id": {
+        "$oid": "65a3cd4af01277a31d87b9d2"
+      }
+    }
+  ],
+  "__v": 3
+},
+{
+  "_id": {
+    "$oid": "65a5606a6253a02747cf8801"
+  },
+  "firstName": "Ayesha",
+  "lastName": "Saeed",
+  "phone": {
+    "$numberLong": "346472248589"
+  },
+  "email": "ayeshasaeed2927@gmail.com",
+  "password": "$2b$10$OEkmdebP1MIDOSq/BAuuy.0iFxW40iyjXG4z3d.B6GU62YjoBiA9e",
+  "role": "user",
+  "cart": [],
+  "__v": 2
+},
+{
+  "_id": {
+    "$oid": "65a570baea7c6d56016108eb"
+  },
+  "firstName": "Yusra",
+  "lastName": "Saeed",
+  "phone": {
+    "$numberLong": "34645745896956"
+  },
+  "email": "yusra2927@gmail.com",
+  "password": "$2b$10$Lg6Aj.hp3w9pVMkGk.PnTO59bR27mNH6YGdB3L95q.B8AmUtkl0n.",
+  "role": "user",
+  "cart": [],
+  "__v": 4
+}]

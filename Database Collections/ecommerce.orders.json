@@ -1,0 +1,217 @@
+[{
+  "_id": {
+    "$oid": "65a3e07c4bc36cb23e402013"
+  },
+  "user": {
+    "$oid": "65a3df4355b080ae532b4e4a"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "65a257aea4ccdf3b29125e4f"
+      },
+      "quantity": 1,
+      "price": 1800,
+      "_id": {
+        "$oid": "65a3e07c4bc36cb23e402014"
+      }
+    }
+  ],
+  "total": 1800,
+  "paymentDetails": {
+    "method": "Credit Card",
+    "transactionId": "abc123"
+  },
+  "personalDetails": {
+    "name": "Ayesha Saeed",
+    "phone": {
+      "$numberLong": "49375788546"
+    },
+    "address": "123 Main St"
+  },
+  "status": "Pending",
+  "createdAt": {
+    "$date": "2024-01-14T13:24:12.726Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65a3efd91c3b1841f28b7ff6"
+  },
+  "user": {
+    "$oid": "65a3e776a15d1afff601e1ce"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "65a257aea4ccdf3b29125e4f"
+      },
+      "quantity": 1,
+      "price": 1800,
+      "_id": {
+        "$oid": "65a3efd91c3b1841f28b7ff7"
+      }
+    }
+  ],
+  "total": 1800,
+  "paymentDetails": {
+    "method": "COD"
+  },
+  "personalDetails": {
+    "name": "Ayesha Saeed",
+    "phone": {
+      "$numberLong": "49375785546"
+    },
+    "address": "123 Main St"
+  },
+  "status": "Pending",
+  "createdAt": {
+    "$date": "2024-01-14T14:29:45.686Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65a5609e6253a02747cf880e"
+  },
+  "user": {
+    "$oid": "65a5606a6253a02747cf8801"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "65a257dca4ccdf3b29125e51"
+      },
+      "quantity": 1,
+      "price": 2099,
+      "_id": {
+        "$oid": "65a5609e6253a02747cf880f"
+      }
+    }
+  ],
+  "total": 2099,
+  "paymentDetails": {
+    "method": "COD"
+  },
+  "personalDetails": {
+    "name": "Ayesha Saeed",
+    "phone": {
+      "$numberLong": "49375785546"
+    },
+    "address": "123 Main St"
+  },
+  "status": "Pending",
+  "createdAt": {
+    "$date": "2024-01-15T16:43:10.780Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65a565fc07282789b6336e0c"
+  },
+  "user": {
+    "$oid": "65a5631f07282789b6336dee"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "65a257aea4ccdf3b29125e4f"
+      },
+      "quantity": 1,
+      "price": 1800,
+      "_id": {
+        "$oid": "65a565fc07282789b6336e0d"
+      }
+    }
+  ],
+  "total": 1800,
+  "paymentDetails": {
+    "method": "COD"
+  },
+  "personalDetails": {
+    "name": "Yusra Saeed",
+    "phone": {
+      "$numberLong": "49375785546"
+    },
+    "address": "123 Main St"
+  },
+  "status": "Pending",
+  "createdAt": {
+    "$date": "2024-01-15T17:06:04.440Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65a56a432859875ef744a349"
+  },
+  "user": {
+    "$oid": "65a568eb2859875ef744a32d"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "65a257aea4ccdf3b29125e4f"
+      },
+      "quantity": 2,
+      "price": 1800,
+      "_id": {
+        "$oid": "65a56a432859875ef744a34a"
+      }
+    }
+  ],
+  "total": 3600,
+  "paymentDetails": {
+    "method": "COD"
+  },
+  "personalDetails": {
+    "name": "Yusra Saeed",
+    "phone": {
+      "$numberLong": "49375785546"
+    },
+    "address": "123 Main St"
+  },
+  "status": "Pending",
+  "createdAt": {
+    "$date": "2024-01-15T17:24:19.802Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65a571faea7c6d5601610909"
+  },
+  "user": {
+    "$oid": "65a570baea7c6d56016108eb"
+  },
+  "orderItems": [
+    {
+      "product": {
+        "$oid": "65a27a2f1e41e53cf6ad6ad7"
+      },
+      "quantity": 2,
+      "price": 2099,
+      "_id": {
+        "$oid": "65a571faea7c6d560161090a"
+      }
+    }
+  ],
+  "total": 4198,
+  "paymentDetails": {
+    "method": "COD"
+  },
+  "personalDetails": {
+    "name": "Yusra Saeed",
+    "phone": {
+      "$numberLong": "49375785546"
+    },
+    "address": "123 Main St"
+  },
+  "status": "Pending",
+  "createdAt": {
+    "$date": "2024-01-15T17:57:14.329Z"
+  },
+  "__v": 0
+}]

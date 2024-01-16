@@ -1,0 +1,105 @@
+[{
+  "_id": {
+    "$oid": "65a257aea4ccdf3b29125e4f"
+  },
+  "name": "Glow SPF: Tinted Sunscreen",
+  "description": "Introducing the Glow SPF. The perfect tinted sunscreen, with spf 60 and broad spectrum protection. A universally flattering formula on all skin tones. This formula is SO good that your skin will sing its praises all day long. ",
+  "price": 1800,
+  "stock": 100,
+  "sold": 0,
+  "imageUrls": [],
+  "created_at": {
+    "$date": "2024-01-13T09:28:14.203Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65a27a2f1e41e53cf6ad6ad7"
+  },
+  "name": "B3 PRO: Pore erasing serum",
+  "description": "Our Niacinamide B3 serum is THE BEST serum to shrink your pores! How, you ask? Well, formulated with 10% Niacinamide and 1% Zinc, these two ingredients have miraculous powers to effectively minimize the appearance of pores, as well as refine the texture of the skin.",
+  "price": 2099,
+  "stock": 100,
+  "sold": 0,
+  "imageUrls": [],
+  "created_at": {
+    "$date": "2024-01-13T11:55:27.535Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65a2912749ba0a0b894c2d33"
+  },
+  "name": "Sheer SPF: Oily/Acne Prone Skin Sunscreen",
+  "description": "Introducing the Sheer SPF. The perfect sunscreen for all skin types, with spf 40 and broad spectrum protection. A formula designed especially for acne prone and oily skin which leaves NO white cast.",
+  "price": 1799,
+  "stock": 100,
+  "sold": 0,
+  "imageUrls": [],
+  "created_at": {
+    "$date": "2024-01-13T13:33:27.442Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65a298fc5b74c06944dbc2a3"
+  },
+  "name": "Clear: Acne clearing serum",
+  "description": "Made for those who suffer from frequent breakouts and red flareups. Quickly clears up acne and blackhead buildup. Pakistan’s trusted organic option for effectively clearing up acne.",
+  "price": 1999,
+  "stock": 100,
+  "sold": 0,
+  "imageUrls": [],
+  "created_at": {
+    "$date": "2024-01-13T14:06:52.172Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65a2c7373e367ebc1ae4c653"
+  },
+  "name": "Quench: Brightening Serum",
+  "description": "Made for brightening up your skin and targeting pigmentation, dark spots, dullness and blemish marks. Instantly adds glow and hydration, making your skin look soft and plump. Pakistan’s trusted organic option for brightening up your skin!",
+  "price": 1399,
+  "stock": 100,
+  "sold": 0,
+  "imageUrls": [
+    "uploads\\imageUrls-1705166647458-200456264.jpg"
+  ],
+  "created_at": {
+    "$date": "2024-01-13T17:24:07.473Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65a57265ea7c6d5601610910"
+  },
+  "name": "Super C: Vitamin C serum",
+  "description": "Sodium Ascorbyl Phosphate is a more stable and gentle form of vitamin …",
+  "price": 2099,
+  "stock": 100,
+  "sold": 0,
+  "created_at": {
+    "$date": "2024-01-15T17:59:01.478Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65a5726eea7c6d5601610914"
+  },
+  "name": "Super C: Vitamin C serum",
+  "description": "Sodium Ascorbyl Phosphate is a more stable and gentle form of vitamin …",
+  "price": 2099,
+  "stock": 100,
+  "sold": 0,
+  "created_at": {
+    "$date": "2024-01-15T17:59:10.472Z"
+  },
+  "__v": 0
+}]
