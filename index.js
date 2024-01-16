@@ -26,10 +26,6 @@ db.once('open', function() {
     console.log("We're connected to the database.");
 });
 
-app.use(cors({
-  origin: 'http://localhost:3000' 
-}));
-
 
 
 app.use('/uploads', express.static('uploads'));
